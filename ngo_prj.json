@@ -1,0 +1,48 @@
+{
+    "name": "NGH",
+    "out": "deployments",
+    "deployments": [
+        {
+            "name": "ngh",
+            "main": "main.go",
+            "path": "cmd/ngh",
+            "os": "windows",
+            "arch": "amd64"
+        },
+        {
+            "name": "ngh",
+            "main": "main.go",
+            "path": "cmd/ngh",
+            "os": "windows",
+            "arch": "arm64"
+        },
+        {
+            "name": "ngh",
+            "main": "main.go",
+            "path": "cmd/ngh",
+            "os": "windows",
+            "arch": "386"
+        },
+        {
+            "name": "ngh",
+            "main": "main.go",
+            "path": "cmd/ngh",
+            "os": "linux",
+            "arch": "amd64"
+        },
+        {
+            "name": "ngh",
+            "main": "main.go",
+            "path": "cmd/ngh",
+            "os": "linux",
+            "arch": "arm64"
+        },
+        {
+            "name": "ngh",
+            "main": "main.go",
+            "path": "cmd/ngh",
+            "os": "linux",
+            "arch": "386"
+        }
+    ]
+}
